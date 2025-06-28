@@ -241,19 +241,19 @@ function DisplayProduct() {
                                 to={`/product/${product._id}`}
                                 className="block px-4 py-2 hover:bg-gray-100"
                               >
-                                View
+                                👁 View
                               </Link>
                               <Link
                                 to={`/editproduct/${product._id}`}
                                 className="block px-4 py-2 hover:bg-gray-100"
                               >
-                                Edit
+                                ✏️ Edit
                               </Link>
                               <button
                                 onClick={() => handleDelete(product._id)}
                                 className="block w-full text-left px-4 py-2 hover:bg-gray-100 text-red-600"
                               >
-                                Delete
+                                🗑 Delete
                               </button>
                             </div>
                           </div>
